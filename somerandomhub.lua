@@ -10,11 +10,11 @@ local Roundify = Instance.new("ImageLabel")
 local Title = Instance.new("TextLabel")
 local TextLabel_Roundify_8px = Instance.new("ImageLabel")
 local Energize = Instance.new("TextButton")
-local OwlHub = Instance.new("TextButton")
+local leave = Instance.new("TextButton")
 local Line1 = Instance.new("ImageLabel")
 local prisonlifegrabknife = Instance.new("TextButton")
 local ragdollenginegui = Instance.new("TextButton")
-local luckyblockgui = Instance.new("TextButton")
+local PrisonLifeGUI = Instance.new("TextButton")
 local OpenClose = Instance.new("TextButton")
 local Roundify_2 = Instance.new("ImageLabel")
 
@@ -105,21 +105,21 @@ Energize.TextScaled = true
 Energize.TextSize = 14.000
 Energize.TextWrapped = true
 
-OwlHub.Name = "OwlHub"
-OwlHub.Parent = reamaenframe
-OwlHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OwlHub.BackgroundTransparency = 1.000
-OwlHub.BorderSizePixel = 0
-OwlHub.Position = UDim2.new(0.647908807, 0, 0.677968502, 0)
-OwlHub.Size = UDim2.new(0, 200, 0, 50)
-OwlHub.ZIndex = 2
-OwlHub.Modal = true
-OwlHub.Font = Enum.Font.SciFi
-OwlHub.Text = "Owl Hub"
-OwlHub.TextColor3 = Color3.fromRGB(0, 0, 0)
-OwlHub.TextScaled = true
-OwlHub.TextSize = 14.000
-OwlHub.TextWrapped = true
+leave.Name = "leave"
+leave.Parent = reamaenframe
+leave.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+leave.BackgroundTransparency = 1.000
+leave.BorderSizePixel = 0
+leave.Position = UDim2.new(0.647908807, 0, 0.677968502, 0)
+leave.Size = UDim2.new(0, 200, 0, 50)
+leave.ZIndex = 2
+leave.Modal = true
+leave.Font = Enum.Font.SciFi
+leave.Text = "Leave"
+leave.TextColor3 = Color3.fromRGB(0, 0, 0)
+leave.TextScaled = true
+leave.TextSize = 14.000
+leave.TextWrapped = true
 
 Line1.Name = "Line1"
 Line1.Parent = reamaenframe
@@ -165,27 +165,27 @@ ragdollenginegui.TextScaled = true
 ragdollenginegui.TextSize = 14.000
 ragdollenginegui.TextWrapped = true
 
-luckyblockgui.Name = "luckyblockgui"
-luckyblockgui.Parent = reamaenframe
-luckyblockgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-luckyblockgui.BackgroundTransparency = 1.000
-luckyblockgui.BorderSizePixel = 0
-luckyblockgui.Position = UDim2.new(0.0677040294, 0, 0.475913703, 0)
-luckyblockgui.Size = UDim2.new(0, 200, 0, 50)
-luckyblockgui.ZIndex = 2
-luckyblockgui.Modal = true
-luckyblockgui.Font = Enum.Font.SciFi
-luckyblockgui.Text = "Lucky Block GUI"
-luckyblockgui.TextColor3 = Color3.fromRGB(0, 0, 0)
-luckyblockgui.TextScaled = true
-luckyblockgui.TextSize = 14.000
-luckyblockgui.TextWrapped = true
+PrisonLifeGUI.Name = "Prison Life GUI"
+PrisonLifeGUI.Parent = reamaenframe
+PrisonLifeGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLifeGUI.BackgroundTransparency = 1.000
+PrisonLifeGUI.BorderSizePixel = 0
+PrisonLifeGUI.Position = UDim2.new(0.0677040294, 0, 0.475913703, 0)
+PrisonLifeGUI.Size = UDim2.new(0, 200, 0, 50)
+PrisonLifeGUI.ZIndex = 2
+PrisonLifeGUI.Modal = true
+PrisonLifeGUI.Font = Enum.Font.SciFi
+PrisonLifeGUI.Text = "Prison Life GUI"
+PrisonLifeGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+PrisonLifeGUI.TextScaled = true
+PrisonLifeGUI.TextSize = 14.000
+PrisonLifeGUI.TextWrapped = true
 
 OpenClose.Name = "OpenClose"
 OpenClose.Parent = hahamaingui
 OpenClose.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 OpenClose.BackgroundTransparency = 1.000
-OpenClose.Position = UDim2.new(0.0200462602, 0, 0.904176891, 0)
+OpenClose.Position = UDim2.new(0.0216384828, 0, 0.913618803, 0)
 OpenClose.Size = UDim2.new(0, 200, 0, 50)
 OpenClose.ZIndex = 2
 OpenClose.Font = Enum.Font.SciFi
@@ -211,15 +211,15 @@ Roundify_2.SliceScale = 0.417
 
 -- Scripts:
 
-local function HWMS_fake_script() -- InfYeild.LocalScript 
+local function ZECZKNP_fake_script() -- InfYeild.LocalScript 
 	local script = Instance.new('LocalScript', InfYeild)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(HWMS_fake_script)()
-local function UYBC_fake_script() -- reamaenframe.Dragify 
+coroutine.wrap(ZECZKNP_fake_script)()
+local function YIUUVY_fake_script() -- reamaenframe.Dragify 
 	local script = Instance.new('LocalScript', reamaenframe)
 
 	local UIS = game:GetService("UserInputService")
@@ -260,8 +260,8 @@ local function UYBC_fake_script() -- reamaenframe.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(UYBC_fake_script)()
-local function KCRE_fake_script() -- Energize.LocalScript 
+coroutine.wrap(YIUUVY_fake_script)()
+local function LMNM_fake_script() -- Energize.LocalScript 
 	local script = Instance.new('LocalScript', Energize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1988,16 +1988,16 @@ local function KCRE_fake_script() -- Energize.LocalScript
 	-- Finished update!
 	end)
 end
-coroutine.wrap(KCRE_fake_script)()
-local function YCUWTL_fake_script() -- OwlHub.LocalScript 
-	local script = Instance.new('LocalScript', OwlHub)
+coroutine.wrap(LMNM_fake_script)()
+local function XZUNNKC_fake_script() -- leave.LocalScript 
+	local script = Instance.new('LocalScript', leave)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+		game.Players.LocalPlayer:Kick("you left ¯\\_(ツ)_/¯")
 	end)
 end
-coroutine.wrap(YCUWTL_fake_script)()
-local function MDRABYM_fake_script() -- prisonlifegrabknife.LocalScript 
+coroutine.wrap(XZUNNKC_fake_script)()
+local function SEAKV_fake_script() -- prisonlifegrabknife.LocalScript 
 	local script = Instance.new('LocalScript', prisonlifegrabknife)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2491,34 +2491,26 @@ local function MDRABYM_fake_script() -- prisonlifegrabknife.LocalScript
 	inform("Made By ASADCATONVERM :D", 2)
 	end)
 end
-coroutine.wrap(MDRABYM_fake_script)()
-local function FTBM_fake_script() -- ragdollenginegui.LocalScript 
+coroutine.wrap(SEAKV_fake_script)()
+local function FGNZFAH_fake_script() -- ragdollenginegui.LocalScript 
 	local script = Instance.new('LocalScript', ragdollenginegui)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/T7weKqag'),true))()
 	end)
 end
-coroutine.wrap(FTBM_fake_script)()
-local function YXAD_fake_script() -- luckyblockgui.LocalScript 
-	local script = Instance.new('LocalScript', luckyblockgui)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://hastebin.com/raw/evikuzotod'))()
-	end)
-end
-coroutine.wrap(YXAD_fake_script)()
-local function OOKFRW_fake_script() -- OpenClose.LocalScript 
+coroutine.wrap(FGNZFAH_fake_script)()
+local function OMIRJ_fake_script() -- OpenClose.LocalScript 
 	local script = Instance.new('LocalScript', OpenClose)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.reamaenframe.Visible == false then
-			script.Parent.Parent.reamaenframe.Visible = true
+		if script.Parent.Parent.Parent.reamaenframe.Visible == false then
+			script.Parent.Parent.Parent.reamaenframe.Visible = true
 			script.Parent.Text = "Close"
 		else
-			script.Parent.Parent.reamaenframe.Visible = false
+			script.Parent.Parent.Parent.reamaenframe.Visible = false
 			script.Parent.Text = "Open"
 		end
 	end)
 end
-coroutine.wrap(OOKFRW_fake_script)()
+coroutine.wrap(OMIRJ_fake_script)()
