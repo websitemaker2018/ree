@@ -189,7 +189,7 @@ OpenClose.Position = UDim2.new(0.0200462602, 0, 0.904176891, 0)
 OpenClose.Size = UDim2.new(0, 200, 0, 50)
 OpenClose.ZIndex = 2
 OpenClose.Font = Enum.Font.SciFi
-OpenClose.Text = "Open"
+OpenClose.Text = "Close"
 OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
 OpenClose.TextScaled = true
 OpenClose.TextSize = 14.000
@@ -211,15 +211,15 @@ Roundify_2.SliceScale = 0.417
 
 -- Scripts:
 
-local function RJZI_fake_script() -- InfYeild.LocalScript 
+local function HWMS_fake_script() -- InfYeild.LocalScript 
 	local script = Instance.new('LocalScript', InfYeild)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(RJZI_fake_script)()
-local function MNIDS_fake_script() -- reamaenframe.Dragify 
+coroutine.wrap(HWMS_fake_script)()
+local function UYBC_fake_script() -- reamaenframe.Dragify 
 	local script = Instance.new('LocalScript', reamaenframe)
 
 	local UIS = game:GetService("UserInputService")
@@ -260,8 +260,8 @@ local function MNIDS_fake_script() -- reamaenframe.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(MNIDS_fake_script)()
-local function FGXAI_fake_script() -- Energize.LocalScript 
+coroutine.wrap(UYBC_fake_script)()
+local function KCRE_fake_script() -- Energize.LocalScript 
 	local script = Instance.new('LocalScript', Energize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1988,16 +1988,16 @@ local function FGXAI_fake_script() -- Energize.LocalScript
 	-- Finished update!
 	end)
 end
-coroutine.wrap(FGXAI_fake_script)()
-local function RONUC_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(KCRE_fake_script)()
+local function YCUWTL_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 end
-coroutine.wrap(RONUC_fake_script)()
-local function PHXWPWQ_fake_script() -- prisonlifegrabknife.LocalScript 
+coroutine.wrap(YCUWTL_fake_script)()
+local function MDRABYM_fake_script() -- prisonlifegrabknife.LocalScript 
 	local script = Instance.new('LocalScript', prisonlifegrabknife)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2488,27 +2488,27 @@ local function PHXWPWQ_fake_script() -- prisonlifegrabknife.LocalScript
 	
 	inform("Prison Life v2.0.2 Grab Knife Loaded | e = Kill /\ q = Fix Knife",3)
 	wait(3.2)
-	inform("go kill some kiddos", 2)
+	inform("Made By ASADCATONVERM :D", 2)
 	end)
 end
-coroutine.wrap(PHXWPWQ_fake_script)()
-local function NYUZP_fake_script() -- ragdollenginegui.LocalScript 
+coroutine.wrap(MDRABYM_fake_script)()
+local function FTBM_fake_script() -- ragdollenginegui.LocalScript 
 	local script = Instance.new('LocalScript', ragdollenginegui)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://pastebin.com/raw/T7weKqag'),true))()
 	end)
 end
-coroutine.wrap(NYUZP_fake_script)()
-local function TVPA_fake_script() -- luckyblockgui.LocalScript 
+coroutine.wrap(FTBM_fake_script)()
+local function YXAD_fake_script() -- luckyblockgui.LocalScript 
 	local script = Instance.new('LocalScript', luckyblockgui)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://hastebin.com/raw/evikuzotod'))()
 	end)
 end
-coroutine.wrap(TVPA_fake_script)()
-local function FAIYUR_fake_script() -- OpenClose.LocalScript 
+coroutine.wrap(YXAD_fake_script)()
+local function OOKFRW_fake_script() -- OpenClose.LocalScript 
 	local script = Instance.new('LocalScript', OpenClose)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2521,4 +2521,4 @@ local function FAIYUR_fake_script() -- OpenClose.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FAIYUR_fake_script)()
+coroutine.wrap(OOKFRW_fake_script)()
